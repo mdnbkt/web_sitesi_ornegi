@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MB Architects | İletişim</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="CSS/İletişim.css">
+</head>
+<body>
+<div id="top">
+  <a href="#top" class="btn btn-dark back-to-top">
+  <i class="bi bi-chevron-up"></i>
+</a>
+</div>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="images/LOGO dÜZGÜN.png" alt="MB Architects Logo" width="72" height="72">
+      <span class="fw-bold">MB Architects</span>
+    </a>
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Normal menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex" id="desktopMenu">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">ANASAYFA</a></li>
+        <li class="nav-item"><a class="nav-link" href="Hakkımızda.html">HAKKIMIZDA</a></li>
+        <li class="nav-item"><a class="nav-link" href="galerimiz.html">GALERİ</a></li>
+        <li class="nav-item"><a class="nav-link active" href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+      <div class="d-flex gap-3">
+        <a href="https://www.instagram.com/" class="fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/" class="fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="https://tr.linkedin.com/" class="fs-5"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.youtube.com/" class="fs-5"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- FULLSCREEN OFFCANVAS (navbar dışı) -->
+<div class="offcanvas offcanvas-start fullscreen-offcanvas bg-dark text-white" tabindex="-1" id="mainMenu" data-bs-scroll="true" data-bs-backdrop="true">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+
+  <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center text-center gap-4">
+    <div class="mb-3">
+  <img src="images/LOGO dÜZGÜN.png" alt="MB Architects" width="85" class="mb-2">
+  <p class="text-uppercase small opacity-75 mb-0">
+    Mimarlık · İç Mekan · Tasarım
+  </p>
+</div>
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">ANASAYFA</a></li>
+      <li class="nav-item"><a class="nav-link" href="Hakkımızda.html">HAKKIMIZDA</a></li>
+      <li class="nav-item"><a class="nav-link" href="galerimiz.html">GALERİ</a></li>
+      <li class="nav-item"><a class="nav-link" href="iletişim.html">İLETİŞİM</a></li>
+    </ul>
+    <div class="w-100 my-4" style="border-top:1px solid rgba(255,255,255,0.2)"></div>
+    <p class="small text-uppercase opacity-75 mb-2">Bizi Takip Edin</p>
+
+    <div class="d-flex gap-3">
+      <a href="https://www.instagram.com/" class="fs-4"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/" class="fs-4"><i class="bi bi-facebook"></i></a>
+      <a href="https://tr.linkedin.com/" class="fs-4"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="fs-4"><i class="bi bi-youtube"></i></a>
+    </div>
+  </div>
+</div>
+<!-- SAYFA BAŞLIĞI -->
+<header class="page-header py-5  bg-light">
+  <div class="container">
+    <h1 class="fw-bold page-title">İLETİŞİM</h1>
+    <p class="lead mt-3 page-subtitle">
+      Projeleriniz için bizimle iletişime geçin.  
+      Size özel çözümler üretmek ve hayallerinizi gerçeğe dönüştürmek için buradayız.
+    </p>
+  </div>
+</header>
+<!-- FORM ALANI -->
+<section class="py-5 contact-main">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-5">
+        <img src="images/iletişim.webp"
+             alt="İletişim Görseli"
+             class="img-fluid rounded-4 shadow contact-image">
+      </div>
+
+      <div class="col-lg-7">
+        <div class="card contact-card">
+          <div class="card-body p-4 p-lg-5">
+            <h4 class="mb-4">İletişim Formu</h4>
+
+            <form>
+              <div class="row g-3">
+
+                <div class="col-md-6">
+                  <input type="text"
+                         class="form-control"
+                         placeholder="Ad Soyad"
+                         required>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email"
+                         class="form-control"
+                         placeholder="E-posta"
+                         required>
+                </div>
+
+                <div class="col-12">
+                  <input type="text"
+                         class="form-control"
+                         placeholder="Proje Konusu"
+                         required>
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control"
+                            rows="5"
+                            placeholder="Mesajınız"
+                            required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit"
+                          class="btn btn-dark w-100 py-3">
+                    Mesajı Gönder
+                  </button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- İLETİŞİM ALANI -->
+<section class="contact-section py-5">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <!-- İletişim Bilgileri -->
+<div class="col-lg-5">
+  <h4 class="fw-semibold mb-4">Bize Ulaşın</h4>
+  <ul class="list-unstyled contact-list">
+    <li class="mb-3"><i class="bi bi-geo-alt"></i> <strong>İstanbul, Türkiye</strong></li>
+    <li class="mb-3"><i class="bi bi-geo-alt"></i> <strong>Londra, İngiltere</strong></li>
+    <li class="mb-3"><i class="bi bi-envelope"></i> <strong>info@medinebektas.com</strong></li>
+    <li class="mb-3"><i class="bi bi-telephone"></i> <strong>+90 555 123 45 67</strong></li>
+    <li class="mb-3"><i class="bi bi-map"></i> 
+      <strong>Maslak Mah. Büyükdere Cad. No:123, Sarıyer / İstanbul</strong>
+    </li>
+  </ul>
+  <div class="d-flex gap-3 mt-4 contact-social">
+    <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+    <a href="https://tr.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+    <a href="https://x.com/home"><i class="bi bi-twitter-x"></i></a>
+  </div>
+</div>
+      <!-- Google Maps -->
+      <div class="col-lg-7">
+        <div class="map-wrapper rounded shadow">
+          <iframe src="https://www.google.com/maps?q=İstanbul&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer class="footer-modern text-white pt-5 pb-4">
+  <div class="container">
+
+    <div class="row gy-5 align-items-start">
+
+      <!-- Logo + icon -->
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-brand d-flex align-items-center mb-3">
+          <img src="images/LOGO dÜZGÜN.png" alt="MB Architects Logo" class="footer-logo">
+          <h4 class="fw-semibold ms-2 mb-0">MB Architects</h4>
+        </div>
+        <p class="footer-desc">
+          Modern, sürdürülebilir ve insan odaklı mimari çözümler üretiyoruz.
+        </p>
+        <div class="footer-social mt-4 d-flex gap-3 justify-content-center">
+          <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+          <a href="https://x.com/home"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://tr.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- Kariyer -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-title">Kariyer</h5>
+        <ul class="footer-list">
+          <li><i class="bi bi-briefcase"></i> Açık Pozisyonlar</li>
+          <li><i class="bi bi-file-earmark-text"></i> Gizlilik Politikası</li>
+          <li><i class="bi bi-file-earmark-text"></i> Danışmanlık</li>
+          <li><i class="bi bi-file-earmark-text"></i> Staj</li>
+        </ul>
+      </div>
+      <!-- İletişim -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-title">İletişim</h5>
+        <ul class="footer-list">
+          <li><i class="bi bi-geo-alt"></i> İstanbul, Türkiye</li>
+          <li><i class="bi bi-geo-alt"></i> Londra, İngiltere</li>
+          <li><i class="bi bi-envelope"></i> info@medinebektas.com</li>
+          <li><i class="bi bi-telephone"></i> +90 555 123 45 67</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider mt-5">
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2025 MB Architects. Tüm hakları saklıdır.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MB Architects | GALERİ</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="CSS/galeri.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="top">
+  <a href="#top" class="btn btn-dark back-to-top">
+  <i class="bi bi-chevron-up"></i>
+</a>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="images/LOGO dÜZGÜN.png" alt="MB Architects Logo" width="72" height="72">
+      <span class="fw-bold">MB Architects</span>
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Normal menu -->
+    <div class="collapse navbar-collapse d-none d-lg-flex" id="desktopMenu">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">ANASAYFA</a></li>
+        <li class="nav-item"><a class="nav-link" href="Hakkımızda.html">HAKKIMIZDA</a></li>
+        <li class="nav-item"><a class="nav-link active" href="galerimiz.html">GALERİ</a></li>
+        <li class="nav-item"><a class="nav-link" href="iletişim.html">İLETİŞİM</a></li>
+      </ul>
+      <div class="d-flex gap-3">
+        <a href="https://www.instagram.com/" class="fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/" class="fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="https://tr.linkedin.com/" class="fs-5"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.youtube.com/" class="fs-5"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- FULLSCREEN OFFCANVAS (navbar dışı) -->
+<div class="offcanvas offcanvas-start fullscreen-offcanvas bg-dark text-white" tabindex="-1" id="mainMenu" data-bs-scroll="true" data-bs-backdrop="true">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+ 
+  <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center text-center gap-4">
+    <div class="mb-3">
+  <img src="images/LOGO dÜZGÜN.png" alt="MB Architects" width="85" class="mb-2">
+  <p class="text-uppercase small opacity-75 mb-0">
+    Mimarlık · İç Mekan · Tasarım
+  </p>
+</div>
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">ANASAYFA</a></li>
+      <li class="nav-item"><a class="nav-link" href="Hakkımızda.html">HAKKIMIZDA</a></li>
+      <li class="nav-item"><a class="nav-link" href="galerimiz.html">GALERİ</a></li>
+      <li class="nav-item"><a class="nav-link" href="iletişim.html">İLETİŞİM</a></li>
+    </ul>
+    <div class="w-100 my-4" style="border-top:1px solid rgba(255,255,255,0.2)"></div>
+    <p class="small text-uppercase opacity-75 mb-2">Bizi Takip Edin</p>
+    <div class="d-flex gap-3">
+      <a href="https://www.instagram.com/" class="fs-4"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/" class="fs-4"><i class="bi bi-facebook"></i></a>
+      <a href="https://tr.linkedin.com/" class="fs-4"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="fs-4"><i class="bi bi-youtube"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- SAYFA BAŞLIĞI -->
+<header class="page-header py-5  bg-light">
+  <div class="container">
+    <h1 class="fw-bold page-title">Projelerimiz</h1>
+    <p class="lead mt-3 page-subtitle">
+      Her projede bağlam, estetik ve sürdürülebilirlik önceliğimizdir.
+    </p>
+  </div>
+</header>
+
+<!-- PROJE LİSTESİ -->
+<section id="featured-projects" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <!-- PROJE 1 -->
+      <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal1">
+          <div class="project-image-wrapper">
+            <img src="images/backyard-symphony-1-43a19d33.webp"
+                 alt="Arka Bahçe Senfoni Ofisi"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">ARKA BAHÇE SENFONİ OFİSİ</h3>
+            <p class="project-location">RİYAD + SUUDİ ARABİSTAN</p>
+            <p class="project-year">2025</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 2 -->
+       <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal2">
+          <div class="project-image-wrapper">
+            <img src="images/Black Shell House.webp"
+                 alt="SİYAH KABUK EVİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">SİYAH KABUK EVİ</h3>
+            <p class="project-location">GAZİANTEP + TÜRKİYE</p>
+            <p class="project-year">2024</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 3 -->
+      <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal3">
+          <div class="project-image-wrapper">
+            <img src="images/erenkoy-apartment-1-5a8682b2.webp"
+                 alt="ERENKÖY APARTMANI"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">ERENKÖY APARTMANI</h3>
+            <p class="project-location">İSTANBUL + TÜRKİYE</p>
+            <p class="project-year">2023</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 4 -->
+           <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal4">
+          <div class="project-image-wrapper">
+            <img src="images/SOFTGAMES-NEW-19-0a457f58.webp"
+                 alt="SOFTGAMES OFİSİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">SOFTGAMES OFİSİ</h3>
+            <p class="project-location">İSTANBUL + TÜRKİYE</p>
+            <p class="project-year">2023</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 5 -->
+         <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal5">
+          <div class="project-image-wrapper">
+            <img src="images/PHILIPS-DA-NEW-30-573e39c7.webp"
+                 alt="PHILIPS DA OFİSİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">PHILIPS DA OFİSİ</h3>
+            <p class="project-location">İSTANBUL + TÜRKİYE</p>
+            <p class="project-year">2022</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 6 -->
+          <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal6">
+          <div class="project-image-wrapper">
+            <img src="images/suhan360-hotel-spa-1-35b710eb.webp"
+                 alt="SUHAN360 OTEL&SPA"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">SUHAN360 OTEL&SPA</h3>
+            <p class="project-location">KUŞADASI + TÜRKİYE</p>
+            <p class="project-year">2022</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 7 -->
+          <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal7">
+          <div class="project-image-wrapper">
+            <img src="images/erbil-public-library-4-f2b6acdb.webp"
+                 alt="ERBİL HALK KÜTÜPHANESİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">ERBİL HALK KÜTÜPHANESİ</h3>
+            <p class="project-location">ERBİL + IRAK</p>
+            <p class="project-year">2021</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 8 -->
+        <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal8">
+          <div class="project-image-wrapper">
+            <img src="images/knowliom-1-e1750749973698-ce4712f3.webp"
+                 alt="KNOWLIOM OFİSİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">KNOWLIOM OFİSİ</h3>
+            <p class="project-location">KREUZBERG + BERLİN</p>
+            <p class="project-year">2020</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 9 -->
+       <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal9">
+          <div class="project-image-wrapper">
+            <img src="images/amadeus-27-1d764aa2.webp"
+                 alt="AMADEUS İSTANBUL OFİSİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">AMADEUS İSTANBUL OFİSİ</h3>
+            <p class="project-location">İSTANBUL + TÜRKİYE</p>
+            <p class="project-year">2019</p>
+          </div>
+        </div>
+      </div>
+      <!-- PROJE 10 -->
+       <div class="col-md-6">
+        <div class="project-card rounded-4 shadow-sm overflow-hidden"
+             data-bs-toggle="modal"
+             data-bs-target="#projectModal10">
+          <div class="project-image-wrapper">
+            <img src="images/belgrad-houses-2-1f5fe369.webp"
+                 alt="BELGRAD EVLERİ"
+                 class="img-fluid project-img">
+          </div>
+          <div class="project-info text-center p-4">
+            <h3 class="project-title">BELGRAD EVLERİ</h3>
+            <p class="project-location">BELGRAD + SIRBİSTAN</p>
+            <p class="project-year">2018</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PROJECT MODAL 1 -->
+<div class="modal fade" id="projectModal1" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">ARKA BAHÇE SENFONİSİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/arkabahçeana2kopya.jpg"
+             class="img-fluid rounded-4 mb-4" alt="ARKA BAHÇE SENFONİSİ">
+        <p class="text-muted">
+         Bu projede, çağdaş mimari prensipler doğrultusunda yenilikçi strüktürel çözümler geliştirilmiştir. Akışkan formu, güçlü taşıyıcı sistemi ve şeffaf yüzeyleriyle estetik ve işlevselliğin dengeli bir biçimde ele alınması hedeflenmiştir. Doğayla uyumlu ve zamansız bir tasarım yaklaşımını yansıtan bu yapı, ofisimizin mimari vizyonunu ve disiplinli tasarım anlayışını temsil etmektedir.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> RİYAD,  SUUDİ ARABİSTAN</li>
+          <li><strong>Yıl:</strong> 2024</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/arkabahçe2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/arkabah1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/arkabahçesenfonisi3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/arkabahçesen4.webp" alt="">
+     </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/arkabahçesenf5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/arkabahsen6.webp" alt="">
+             </div>
+               </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 2 -->
+<div class="modal fade" id="projectModal2" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">SİYAH KABUK EVİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/black-shell-houseana.jpgkopya.jpg"
+             class="img-fluid rounded-4 mb-4" alt="SİYAH KABUK EVİ">
+        <p class="text-muted">
+         Bu projede, çağdaş mimari prensipler doğrultusunda yenilikçi strüktürel çözümler geliştirilmiştir. Akışkan formu, güçlü taşıyıcı sistemi ve şeffaf yüzeyleriyle estetik ve işlevselliğin dengeli bir biçimde ele alınması hedeflenmiştir. Doğayla uyumlu ve zamansız bir tasarım yaklaşımını yansıtan bu yapı, ofisimizin mimari vizyonunu ve disiplinli tasarım anlayışını temsil etmektedir.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> Gaziantep, Türkiye</li>
+          <li><strong>Yıl:</strong> 2024</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+      
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/Black Shell House2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/siayhkabuk1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/black-shell-house-2-7fd15ea3.webp4.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/siyahkabuk3.webp" alt="">
+     </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/siahkabuk4.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/siyahkabuk5.webp" alt="">
+             </div>
+               </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 3 -->
+<div class="modal fade" id="projectModal3" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">ERENKÖY APARTMANI</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/erenköyaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="ERENKÖY APARTMANI">
+        <p class="text-muted">
+          Erenköy Apartmanı, firmamız tarafından İstanbul’un Erenköy bölgesinde, mevcut kentsel dokuya uyum gözetilerek tasarlanmış bir konut projesidir. Projede sade kütle organizasyonu, dengeli cephe oranları ve işlevsel planlama ön planda tutulmuş; modern yaşam ihtiyaçlarına cevap veren, zamansız bir mimari yaklaşım benimsenmiştir. Yapı, hem estetik hem de kullanım açısından sürdürülebilir ve kullanıcı odaklı bir çözüm sunmayı hedeflemektedir.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> İstanbul, Türkiye</li>
+          <li><strong>Yıl:</strong> 2023</li>
+          <li><strong>Tip:</strong> Konut</li>
+        </ul>
+         <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erenköy1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+   
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erenköy2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+ 
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erenköy3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 4 -->
+<div class="modal fade" id="projectModal4" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">SOFTGAMES Ofisi</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/sofgamealtana.webp"
+             class="img-fluid rounded-4 mb-4" alt="SOFTGAMES Ofisi">
+        <p class="text-muted">
+          Softgames Ofisi, açık plan kurgusu ve esnek mekân organizasyonuyla çağdaş ofis anlayışını yansıtan bir iç mekân tasarımıdır. Tasarımda çalışma alanları, toplantı birimleri ve sosyal mekânlar birbiriyle ilişki kuracak şekilde düzenlenmiş; doğal ışık kullanımı ve malzeme sürekliliği ile bütüncül bir mekânsal dil oluşturulmuştur. Ofis, kullanıcı etkileşimini destekleyen ve işlevselliği ön planda tutan bir yaklaşımla ele alınmıştır.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> İstanbul, Türkiye</li>
+          <li><strong>Yıl:</strong> 2023</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/sofgame1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+     
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/sofgame2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/sofgame3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/sofgame4.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/sofgame5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/sofgame6.webp" alt="">
+             </div>
+               </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 5 -->
+<div class="modal fade" id="projectModal5" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">PHILIPS DA OFİSİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/Philipsaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="PHILIPS DA OFİSİ">
+        <p class="text-muted">
+          Philips Ofisi, kurumsal kimliği mekânsal tasarımla bütünleştiren çağdaş bir ofis projesidir. Tasarımda açık ve yarı açık çalışma alanları dengeli biçimde kurgulanmış, şeffaflık ve esnek kullanım ön planda tutulmuştur. Malzeme seçimleri, aydınlatma kurgusu ve mekân organizasyonu ile hem verimli hem de konforlu bir çalışma ortamı oluşturulması hedeflenmiştir.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> İstanbul, Türkiye</li>
+          <li><strong>Yıl:</strong> 2022</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/Philips-1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/PHILIPS2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/PHILIPS3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/PHILIPS4.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/Philips5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/Philips6.webp" alt="">
+             </div>
+               </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 6 -->
+<div class="modal fade" id="projectModal6" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">SUHAN360 OTEL&SPA</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/suhan360altana.webp"
+             class="img-fluid rounded-4 mb-4" alt="SUHAN360 OTEL&SPA">
+        <p class="text-muted">
+          Suhan360 Otel&Spa, konaklama işlevini mekânsal konfor ve deneyim odaklı tasarım anlayışıyla birleştiren bir yapı olarak ele alınmıştır. Tasarımda ortak alanlar, kullanıcı sirkülasyonunu destekleyecek biçimde akıcı bir plan şemasıyla kurgulanmış; iç mekânda malzeme seçimi, aydınlatma ve mekân ölçeğiyle rahatlatıcı bir atmosfer oluşturulmuştur. Yapı, otel işlevinin gerektirdiği konforu çağdaş bir mimari yaklaşımla yorumlamaktadır.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> Kuşadası, Türkiye</li>
+          <li><strong>Yıl:</strong> 2022</li>
+          <li><strong>Tip:</strong> Ticari Yapı</li>
+        </ul>
+
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+      
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/suhan3601.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/suhan3602.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/suhan3603.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/suhan3604.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/suhan3605.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/suhan3606.webp" alt="">
+             </div>
+               </div>
+         </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 7 -->
+<div class="modal fade" id="projectModal7" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">ERBİL HALK KÜTÜPHANESİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <img src="images/erbilkütüpaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="ERBİL HALK KÜTÜPHANESİ">
+
+        <p class="text-muted">
+          Tasarımda okuma alanları, araştırma birimleri ve ortak kullanım mekânları dengeli bir planlama anlayışıyla ele alınmış; doğal ışık, mekânsal süreklilik ve kullanıcı konforu ön planda tutulmuştur. Yapı, kütüphane işlevini çağdaş bir mimari yaklaşımla yorumlamaktadır.
+        </p>
+
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> Erbil, Irak</li>
+          <li><strong>Yıl:</strong> 2021</li>
+          <li><strong>Tip:</strong> Kamu Yapısı</li>
+        </ul>
+
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+           
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erbil1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erbil2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+    
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/erbil3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/erbil4.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/erbil5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/erbi6.webp" alt="">
+             </div>
+               </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 8 -->
+<div class="modal fade" id="projectModal8" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">KNOWLIOM OFİSİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/knowliomaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="KNOWLIOM OFİSİ">
+        <p class="text-muted">
+          Knowliom Ofisi, esnek çalışma düzenini destekleyen ve kullanıcı etkileşimini ön plana çıkaran çağdaş bir ofis tasarımıdır. Mekân organizasyonunda açık plan kurgusu, ortak kullanım alanları ve bireysel çalışma birimleri dengeli biçimde ele alınmış; doğal ışık, malzeme sürekliliği ve sade tasarım diliyle bütüncül bir iç mekân atmosferi oluşturulmuştur. Yapı, işlevsellik ve mekânsal konforu birlikte ele alan bir yaklaşımla tasarlanmıştır.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> Kreuzberg, Berlin</li>
+          <li><strong>Yıl:</strong> 2020</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+        <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/knowliom1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/knowliom2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/knowliom3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/knowliom4.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/knowliom5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/knowliom6.webp" alt="">
+             </div>
+               </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 9 -->
+<div class="modal fade" id="projectModal9" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">AMADEUS İSTANBUL OFİSİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/amadeusaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="Tuana Lay-In Ofisi">
+        <p class="text-muted">
+          Amadeus Ofisi, esnek çalışma düzenini destekleyen ve kullanıcı deneyimini merkeze alan çağdaş bir ofis iç mekânı olarak kurgulanmıştır. Açık plan yerleşimi, farklı çalışma senaryolarına uyum sağlayan mekânlar ve sosyal alanlarla desteklenmiş; doğal ışık kullanımı, biyofilik tasarım yaklaşımları ve sürdürülebilir malzeme tercihleriyle sağlıklı ve verimli bir çalışma ortamı oluşturulmuştur.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> İstanbul, Türkiye</li>
+          <li><strong>Yıl:</strong> 2019</li>
+          <li><strong>Tip:</strong> Ofis</li>
+        </ul>
+         <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/AMADEUS1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/amadeus2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/amadeus3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        <!-- 2. SATIR -->
+        <div class="col-md-4">
+       <div class="modal-img-box">
+        <img src="images/amadeus4.webp" alt="">
+        </div>
+       </div>
+
+        <div class="col-md-4">
+          <div class="modal-img-box">
+          <img src="images/AMADEUS5.webp" alt="">
+          </div>
+            </div>
+
+            <div class="col-md-4">
+             <div class="modal-img-box">
+              <img src="images/AMADEUS6.webp" alt="">
+             </div>
+               </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PROJECT MODAL 10 -->
+<div class="modal fade" id="projectModal10" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0">
+        <h4 class="modal-title fw-bold">BELGRAD EVLERİ</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/belgradevaltana.webp"
+             class="img-fluid rounded-4 mb-4" alt="Belgrad Evleri">
+        <p class="text-muted">
+          Tasarımda, çevresel ve sosyal yaşama uyumlu mekânsal süreklilik sağlanması, kullanıcı konforu ve estetik değerlerin bütünleşmesi amaçlanmıştır. Bu yaklaşım, Belgrad’ın mimari bağlamında konut fonksiyonunu çağdaş standartlarla yeniden tanımlayan bir çözüm sunar.
+        </p>
+        <ul class="list-unstyled mb-4">
+          <li><strong>Lokasyon:</strong> Belgrad, Sırbistan</li>
+          <li><strong>Yıl:</strong> 2018</li>
+          <li><strong>Tip:</strong> Konut</li>
+        </ul>
+         <div class="row g-3 modal-gallery">
+           <!--1.Satır-->
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/belgrad1.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+        
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/belgrad2.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         
+          <div class="col-md-4">
+            <div class="modal-img-box">
+            <img src="images/belgrad3.webp" class="img-fluid rounded-3">
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer class="footer-modern text-white pt-5 pb-4">
+  <div class="container">
+
+    <div class="row gy-5 align-items-start">
+
+      <!-- Logo + İCON -->
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-brand d-flex align-items-center mb-3">
+          <img src="images/LOGO dÜZGÜN.png" alt="MB Architects Logo" class="footer-logo">
+          <h4 class="fw-semibold ms-2 mb-0">MB Architects</h4>
+        </div>
+
+        <p class="footer-desc">
+          Modern, sürdürülebilir ve insan odaklı mimari çözümler üretiyoruz.
+        </p>
+
+        <div class="footer-social mt-4 d-flex gap-3 justify-content-center">
+          <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+          <a href="https://x.com/home"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://tr.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Kariyer -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-title">Kariyer</h5>
+        <ul class="footer-list">
+          <li><i class="bi bi-briefcase"></i> Açık Pozisyonlar</li>
+          <li><i class="bi bi-file-earmark-text"></i> Gizlilik Politikası</li>
+          <li><i class="bi bi-file-earmark-text"></i> Danışmanlık</li>
+          <li><i class="bi bi-file-earmark-text"></i> Staj</li>
+        </ul>
+      </div>
+
+      <!-- İletişim -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="footer-title">İletişim</h5>
+        <ul class="footer-list">
+          <li><i class="bi bi-geo-alt"></i> İstanbul, Türkiye</li>
+          <li><i class="bi bi-geo-alt"></i> Londra, İngiltere</li>
+          <li><i class="bi bi-envelope"></i> info@medinebektas.com</li>
+          <li><i class="bi bi-telephone"></i> +90 555 123 45 67</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider mt-5">
+
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2025 MB Architects. Tüm hakları saklıdır.</p>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>
